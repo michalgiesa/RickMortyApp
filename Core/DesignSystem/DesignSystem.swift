@@ -10,24 +10,6 @@ extension Color {
     static let neon   = Color(#colorLiteral(red: 0.42, green: 0.94, blue: 1.0, alpha: 1))
 }
 
-//struct PrimaryButton: View {
-//    let title: String
-//    var action: () -> Void
-//
-//    var body: some View {
-//        Button(action: action) {
-//            Text(title).font(.headline).frame(maxWidth: .infinity).padding(.vertical, 14)
-//        }
-//        .background(.ultraThinMaterial)
-//        .overlay(
-//            RoundedRectangle(cornerRadius: 14).stroke(LinearGradient(colors: [.portal, .neon], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 2)
-//        )
-//        .clipShape(RoundedRectangle(cornerRadius: 14))
-//        .shadow(color: .portal.opacity(0.4), radius: 12, x: 0, y: 6)
-//        .padding(.horizontal, DS.Spacing.lg)
-//    }
-//}
-
 /// Używane globalnie jako tło dla ekranów
 struct PortalBackground: View {
     @State private var rotate = false
