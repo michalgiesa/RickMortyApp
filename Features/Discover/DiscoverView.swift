@@ -1,10 +1,3 @@
-//
-//  DiscoverView.swift
-//  RickAndMorty
-//
-//  Created by Michał Giesa on 01/09/2025.
-//
-
 import SwiftUI
 
 /// Siatka (adaptive) kafelków postaci. Kafelki mają automatyczną wysokość (kwadraty) i równe marginesy.
