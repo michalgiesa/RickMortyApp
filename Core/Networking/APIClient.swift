@@ -1,10 +1,3 @@
-//
-//  APIClient.swift
-//  RickAndMorty
-//
-//  Created by Michał Giesa on 01/09/2025.
-//
-
 import Foundation
 
 /// Klient HTTP oparty o `URLSession`, z prostym modelem Endpoint.
