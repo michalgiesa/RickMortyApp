@@ -1,10 +1,3 @@
-//
-//  DiscoverViewModel.swift
-//  RickAndMorty
-//
-//  Created by Michał Giesa on 01/09/2025.
-//
-
 import SwiftUI
 
 /// Dostępne filtry statusu postaci prezentowane w widoku Discover.
