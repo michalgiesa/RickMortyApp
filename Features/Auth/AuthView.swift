@@ -1,10 +1,3 @@
-//
-//  AuthView.swift
-//  RickAndMorty
-//
-//  Created by Michał Giesa on 01/09/2025.
-//
-
 import SwiftUI
 
 /// Ekran logowania – pola e‑mail/hasło, przycisk Login oraz przycisk Face ID (gdy dostępne).
