@@ -1,4 +1,3 @@
-//
 import SwiftUI
 
 /// Przycisk z obrysem np. logowania
