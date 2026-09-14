@@ -1,6 +1,4 @@
 import SwiftUI
-
-/// Przycisk z obrysem np. logowania
 struct PrimaryButton: View {
     let title: String
     var action: () -> Void
@@ -11,7 +9,7 @@ struct PrimaryButton: View {
                 .font(.headline)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 14)
-        }
+        }//12345
         .background(.ultraThinMaterial)
         .overlay(
             RoundedRectangle(cornerRadius: 14)
