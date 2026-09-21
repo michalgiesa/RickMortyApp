@@ -6,11 +6,6 @@ struct SecureStore {
     struct Key: Hashable { let rawValue: String; init(_ v: String){ rawValue = v } }
     let service: String
 
-    /// Zapisuje wartość do Keychain.
-    /// - Parameters:
-    /// - value: ciąg bajtów (String) do zapisania.
-    /// - key: klucz elementu.
-    /// - protectedWithBiometrics: gdy `true`, zastosuje `biometryCurrentSet` (wymaga kontekstu przy odczycie).
     func save(_ value: String, for key: Key, protectedWithBiometrics: Bool) throws {
         let data = Data(value.utf8)
         var query: [String: Any] = [
