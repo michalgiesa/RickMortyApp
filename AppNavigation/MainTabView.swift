@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Główne zakładki aplikacji: Discover, Favorites, Profile.
 struct MainTabView: View {
     var body: some View {
         TabView {
