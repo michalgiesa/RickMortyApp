@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Wyświetla statystyki repozytorium z GitHub API.
 struct AboutGitHubView: View {
     @State private var repo: Repo?
     @State private var isLoading = false
