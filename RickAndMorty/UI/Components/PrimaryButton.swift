@@ -9,7 +9,7 @@ struct PrimaryButton: View {
                 .font(.headline)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 14)
-        }//12345
+        }
         .background(.ultraThinMaterial)
         .overlay(
             RoundedRectangle(cornerRadius: 14)
