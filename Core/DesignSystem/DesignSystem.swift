@@ -10,7 +10,6 @@ extension Color {
     static let neon   = Color(#colorLiteral(red: 0.42, green: 0.94, blue: 1.0, alpha: 1))
 }
 
-/// Używane globalnie jako tło dla ekranów
 struct PortalBackground: View {
     @State private var rotate = false
     var body: some View {

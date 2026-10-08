@@ -5,7 +5,7 @@ protocol APIClient {
     func request<T: Decodable>(_ endpoint: Endpoint) async throws -> T
 }
 
-/// Domyślna, produkcyjna implementacja klienta.
+
 struct Endpoint {
     var path: String
     var query: [URLQueryItem] = []
@@ -13,7 +13,7 @@ struct Endpoint {
     var headers: [String: String] = [:]
 }
 
-/// Minimalistyczny klient HTTP oparty o `URLSession`, z prostym modelem Endpoint.
+
 struct DefaultAPIClient: APIClient {
     let baseURL: URL
     let decoder: JSONDecoder = {
