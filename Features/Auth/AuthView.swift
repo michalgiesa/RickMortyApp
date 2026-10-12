@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Ekran logowania – pola e‑mail/hasło, przycisk Login oraz przycisk Face ID (gdy dostępne).
 struct AuthView: View {
     @StateObject private var vm: AuthViewModel
 
