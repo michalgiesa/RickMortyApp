@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Dostępne filtry statusu postaci prezentowane w widoku Discover.
 enum StatusFilter: String, CaseIterable, Identifiable {
     case all
     case alive
@@ -24,7 +23,6 @@ enum StatusFilter: String, CaseIterable, Identifiable {
     }
 }
 
-/// ViewModel listy postaci: ładowanie pierwszej strony i publikacja wyników.
 @MainActor
 final class DiscoverViewModel: ObservableObject {
     @Published var items: [Character] = []
