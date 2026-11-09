@@ -6,7 +6,6 @@ protocol AuthService {
     func biometricLogin() async throws -> String
 }
 
-/// Mock
 struct MockAuthService: AuthService {
     func login(email: String, password: String) async throws -> String {
         try await Task.sleep(nanoseconds: 400_000_000)
