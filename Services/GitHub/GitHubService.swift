@@ -1,10 +1,3 @@
-//
-//  GitHubService.swift
-//  RickAndMorty
-//
-//  Created by Michał Giesa on 01/09/2025.
-//
-
 import Foundation
 
 /// Serwis do pobierania informacji o repozytorium GitHub (bez auth).
