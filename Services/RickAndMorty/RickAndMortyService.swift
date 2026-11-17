@@ -1,6 +1,5 @@
 import Foundation
 
-/// Model postaci z Rick & Morty API.
 protocol RickAndMortyService {
     func characters(page: Int) async throws -> [Character]
 }
