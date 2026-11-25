@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Lista ulubionych postaci
 struct FavoritesView: View {
     @EnvironmentObject var favorites: FavoritesStore
 
