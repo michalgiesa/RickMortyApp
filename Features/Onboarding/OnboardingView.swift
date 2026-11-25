@@ -1,6 +1,5 @@
 import SwiftUI
 
-/// Ekran powitalny (jednorazowy). Po tapnięciu „Zaczynamy” wywołuje `onComplete`.
 struct OnboardingView: View {
     var onComplete: () -> Void
 
