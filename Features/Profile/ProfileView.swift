@@ -1,13 +1,5 @@
-//
-//  ProfileView.swift
-//  RickAndMorty
-//
-//  Created by Michał Giesa on 01/09/2025.
-//
-
 import SwiftUI
 
-/// Ekran profilu z sekcją "About/GitHub" i przyciskiem wylogowania.
 struct ProfileView: View {
     @EnvironmentObject var appVM: AppViewModel
 
